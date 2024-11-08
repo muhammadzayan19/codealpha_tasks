@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/2cb6dbcc99.js" crossorigin="anonymous"></script>
+    <title>Muhammad Zayan - Portfolio Website</title>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Logo.jpg" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+            <p>Frontend Developer</p>
+            <h1>Hi, I'm <span>Muhammad Zayan</span><br>from Pakistan</h1>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Profile.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>I am a passionate and dedicated student pursuing a Computer Science at Aga Khan Higher Secondary School Karachi. I have a strong foundation in programming languages such as Python, JavaScript, and C++, and I am skilled in web development using HTML, CSS, and JavaScript. I am also familiar with database management systems like SQL. I am a quick learner and have a strong problem-solving mindset. I am eager to apply my skills and knowledge to real-world projects and contribute to the field of computer science.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            </div>
+                            <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span>Web Development</span><br>Web app Development</li>
+                                    <li><span>Programming Languages</span><br>C++, Python, JavaScript</li>
+                                    <li><span>Database Management</span><br>SQL</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="experience">
+                                <ul>
+                                    <li><span>October 2024 - Nobember 2024</span><br>Intern at Code Alpha</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>2024 - Current</span><br>Intermediate at Aga Khan Higher Secondary School Karachi</li>
+                                    <li><span>2022 - 2024</span><br>Matriculation at Aga Khan Higher Secondary School Karachi</li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Frontend Development</h2>
+                    <p>I specialize in building interactive and responsive web interfaces using HTML, CSS, and JavaScript. My projects reflect a strong understanding of modern design principles and performance optimization. I am passionate about creating seamless user experiences and continuously enhance my skills to stay updated with the latest technologies.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>With a keen eye for aesthetics and usability, I design user-friendly interfaces that prioritize user engagement and satisfaction. My process involves wireframing, prototyping, and iterative testing to create visually appealing and intuitive designs that align with client needs and goals.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Database Management</h2>
+                    <p>I am skilled in managing and organizing data using database systems such as SQL. My expertise includes database design, optimization, and data integrity maintenance to ensure efficient data storage and retrieval, contributing to robust and scalable applications.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.JPG">
+                    <div class="layer">
+                        <h3>Apple Website Duplicate</h3>
+                        <a href="https://github.com/muhammadzayan19/Websites/tree/main/apple"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.jpg">
+                    <div class="layer">
+                        <h3>Daraz Website Duplicate</h3>
+                        <a href="https://github.com/muhammadzayan19/Websites/tree/main/daraz"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/muhammadzayan19/Websites" class="btn">See more</a>
+            </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>muhammadzayan1608@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>0318-2216982</p>
+                    <div class="social-icons">
+                        <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Muhammad Zayan. Made with <i class="fa-solid fa-heart"></i> by Muhammad Zayan</p>
+        </div>
+    </div>
+                        
+
+    
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+                                    
+</body>
+</html>
